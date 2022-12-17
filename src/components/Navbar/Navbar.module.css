@@ -1,0 +1,9 @@
+.navbar {
+  background: #17191a;
+  width: 220px;
+  height: 100%;
+}
+
+.navbar:active {
+  background: #474b4d;
+}
