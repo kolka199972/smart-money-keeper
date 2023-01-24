@@ -1,0 +1,39 @@
+.card {
+  position: relative;
+  min-width: 250px;
+  height: 80px;
+  background: #e1e1dc;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+.title {
+  padding: 5px 0 0 10px;
+}
+
+.cardBody {
+  font-size: 30px;
+  color: #71bf39;
+  text-align: center;
+}
+
+.cardBody.negative {
+  font-size: 30px;
+  color: #b23655;
+  text-align: center;
+}
+
+.buttonEdit {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  transition: background-color 0.2s ease-in;
+}
+
+.buttonEdit:hover {
+  background: #b7b5b3;
+}
+
+.buttonEdit span {
+  font-size: 16px;
+}

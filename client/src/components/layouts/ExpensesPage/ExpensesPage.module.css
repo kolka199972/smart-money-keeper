@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.card {
+  width: 65%;
+}
+
+.doughnut {
+  max-width: 500px;
+  margin-top: 50px;
+  margin: 50px auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sort {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 40px 40px 0;
+}
+
+.sortBlock {
+  width: 100px;
+  font-size: 18px;
+  background: #f5f5f0;
+  padding: 20px 10px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.4s ease-in;
+}
+
+.sortBlock.active {
+  border-bottom: 5px solid #000;
+}
+
+.sortBlock:hover {
+  background: #b7b5b3;
+}

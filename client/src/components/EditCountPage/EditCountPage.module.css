@@ -1,0 +1,13 @@
+.container {
+  margin: 30px auto;
+}
+
+.title {
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}

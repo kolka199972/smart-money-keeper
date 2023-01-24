@@ -1,0 +1,44 @@
+.textField {
+  margin-bottom: 20px;
+}
+
+.label {
+  display: block;
+}
+
+.input {
+  width: 400px;
+  background: #ffffff;
+  padding: 12px 20px;
+  margin: 8px 0 2px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.input.error {
+  border: 1px solid #ce1919;
+}
+
+.input:focus {
+  border: 2px solid #000000;
+}
+
+.spanWrap {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.spanError {
+  /* display: block; */
+  /* font-size: 14px; */
+  color: #ce1919;
+}
+
+.spanCreate {
+  color: #22a4fb;
+  margin-right: 60px;
+  cursor: pointer;
+}

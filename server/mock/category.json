@@ -1,0 +1,71 @@
+[
+  {
+    "_id": "1671377137522",
+    "default": "1",
+    "name": "Food & Drinks",
+    "type": "expense"
+  },
+  {
+    "_id": "1671377217063",
+    "default": "1",
+    "name": "Charity",
+    "type": "expense"
+  },
+  {
+    "_id": "1671377272988",
+    "default": "1",
+    "name": "Clothing & Footwear",
+    "type": "expense"
+  },
+  {
+    "_id": "1671377320472",
+    "default": "1",
+    "name": "Education",
+    "type": "expense"
+  },
+  {"_id": "1671377380990", "default": "1", "name": "Gifts", "type": "expense"},
+  {
+    "_id": "1671377392712",
+    "default": "1",
+    "name": "Health & Personal Care",
+    "type": "expense"
+  },
+  {"_id": "1671377404929", "default": "1", "name": "Sports", "type": "expense"},
+  {
+    "_id": "1671377500920",
+    "default": "1",
+    "name": "Home & Utilities",
+    "type": "expense"
+  },
+  {
+    "_id": "1671377513238",
+    "default": "1",
+    "name": "Leisure",
+    "type": "expense"
+  },
+  {"_id": "1671377522668", "default": "1", "name": "Loans", "type": "expense"},
+  {"_id": "1671377536270", "default": "1", "name": "Taxes", "type": "expense"},
+  {
+    "_id": "1671377544960",
+    "default": "1",
+    "name": "Transport",
+    "type": "expense"
+  },
+  {"_id": "1671377555169", "default": "1", "name": "Other"},
+  {"_id": "1671377668889", "default": "1", "name": "Salary", "type": "income"},
+  {"_id": "1671377677720", "default": "1", "name": "Grants", "type": "income"},
+  {"_id": "1671377687516", "default": "1", "name": "Loans", "type": "income"},
+  {
+    "_id": "1671377696148",
+    "default": "1",
+    "name": "Reimbursements",
+    "type": "income"
+  },
+  {
+    "_id": "1671377705494",
+    "default": "1",
+    "name": "Investments",
+    "type": "income"
+  },
+  {"_id": "1671377714798", "default": "1", "name": "Other", "type": "income"}
+]

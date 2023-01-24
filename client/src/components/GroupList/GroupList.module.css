@@ -1,0 +1,12 @@
+.groupItem {
+  background: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  cursor: pointer;
+  transition: background-color 0.4s ease-in;
+}
+
+.groupItem:hover {
+  background: #b7b5b3;
+}

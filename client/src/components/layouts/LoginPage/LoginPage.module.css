@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@700&display=swap');
+
+body {
+  background: #f5f8fa;
+}
+
+.card {
+  margin: 50px auto 0 auto;
+}
+
+.title {
+  font-family: 'Source Serif Pro', serif;
+  font-size: 56px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.toggleTitle {
+  margin-top: 20px;
+}
+
+.toggleItem {
+  color: #1d6dd4;
+  cursor: pointer;
+}
