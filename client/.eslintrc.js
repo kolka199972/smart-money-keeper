@@ -14,7 +14,6 @@ module.exports = {
     'space-before-function-paren': 'off',
     'object-curly-spacing': 'off',
     'react/prop-types': 'off',
-    'no-unused-vars': 'off',
     'multiline-ternary': 'off',
     indent: 'off'
   }

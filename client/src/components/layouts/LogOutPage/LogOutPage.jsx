@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react'
-import {useDispatch, useSelector} from 'react-redux'
+import {useDispatch} from 'react-redux'
 import {useNavigate} from 'react-router-dom'
-import {getIsLoggedIn, logout} from '../../../store/user'
+import {logout} from '../../../store/user'
 
 const LogOutPage = () => {
   const dispatch = useDispatch()

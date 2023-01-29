@@ -62,7 +62,6 @@ const {
   userReceived,
   userRequestFailed,
   authRequestSuccess,
-  authRequestFailed,
   userUpdated,
   userLoggedOut
 } = actions

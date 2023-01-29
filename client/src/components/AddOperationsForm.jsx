@@ -1,13 +1,13 @@
 import React, {useEffect, useState} from 'react'
-import TextField from '../common/form/TextField/TextField'
-import Modal from '../common/Modal/Modal'
-import {validator} from '../../utils/validator'
-import SelectField from '../common/form/SelectField/SelectField'
+import TextField from './common/form/TextField/TextField'
+import Modal from './common/Modal/Modal'
+import {validator} from '../utils/validator'
+import SelectField from './common/form/SelectField/SelectField'
 import {useDispatch, useSelector} from 'react-redux'
-import MyButton from '../MyButton/MyButton'
-import {createOperation} from '../../store/operation'
-import {createCategory} from '../../store/category'
-import {getAccountCounts, getCountById, updateCount} from '../../store/count'
+import MyButton from './MyButton/MyButton'
+import {createOperation} from '../store/operation'
+import {createCategory} from '../store/category'
+import {getAccountCounts, getCountById, updateCount} from '../store/count'
 
 const AddOperationsForm = ({activeModal, onToggleModal, categories, type}) => {
   const [categoryModal, setCategoryModal] = useState(false)

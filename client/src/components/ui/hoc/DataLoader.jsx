@@ -17,6 +17,7 @@ import {
   getUserLoadingStatus,
   loadUser
 } from '../../../store/user'
+import Preloader from '../../common/Preloader/Preloader'
 
 const DataLoader = ({children}) => {
   const userLoadingStatus = useSelector(getUserLoadingStatus())
@@ -53,7 +54,7 @@ const DataLoader = ({children}) => {
     countLoadingStatus ||
     operationLoadingStatus
   ) {
-    return <h1>Loading...</h1>
+    return <Preloader />
   }
 
   return children

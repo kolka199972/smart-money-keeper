@@ -1,12 +1,12 @@
 import React, {useEffect, useState} from 'react'
 import {useDispatch} from 'react-redux'
-import {createCount} from '../../store/count'
-import {typesForCounts} from '../../utils/types'
-import {validator} from '../../utils/validator'
-import SelectField from '../common/form/SelectField/SelectField'
-import TextField from '../common/form/TextField/TextField'
-import Modal from '../common/Modal/Modal'
-import MyButton from '../MyButton/MyButton'
+import {createCount} from '../store/count'
+import {typesForCounts} from '../utils/types'
+import {validator} from '../utils/validator'
+import SelectField from './common/form/SelectField/SelectField'
+import TextField from './common/form/TextField/TextField'
+import Modal from './common/Modal/Modal'
+import MyButton from './MyButton/MyButton'
 
 const AddCountForm = ({activeModal, onToggleModal}) => {
   const [data, setData] = useState({name: '', value: '', type: ''})

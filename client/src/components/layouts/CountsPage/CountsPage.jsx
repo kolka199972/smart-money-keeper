@@ -5,7 +5,7 @@ import {
   getDebtCounts,
   getSavingCounts
 } from '../../../store/count'
-import AddCountForm from '../../AddCountForm/AddCountForm'
+import AddCountForm from '../../AddCountForm'
 import CountCard from '../../CountCard/CountCard'
 import s from './CountsPage.module.css'
 

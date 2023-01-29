@@ -1,7 +1,6 @@
 import React from 'react'
 import {useSelector} from 'react-redux'
 import {NavLink} from 'react-router-dom'
-import {useUser} from '../../hooks/useUser'
 import {getIsLoggedIn} from '../../store/user'
 import s from './Navbar.module.css'
 
